@@ -1,0 +1,59 @@
+# Node modules (pnpm)
+.pnpm/
+.pnpm-global/
+
+# The node_modules folder
+node_modules/
+
+# pnpm lock file (optional, but if you want to ignore it, add this line)
+pnpm-lock.yaml
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Build output
+/dist
+/build
+
+# TypeScript files
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# Mac OS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# IDE files
+.idea/
+
+# Optional npm cache directory
+.npm
+
+# TSC compiled files
+*.ts.map
+
+# Generated documentation
+docs/
+
+# Test coverage
+coverage/
+
+# eslint cache
+.eslintcache
+
+# Directory for temporary storage
+tmp/
+
+# Other sensitive or unnecessary files
+*.bak
+*.swp
