@@ -8,7 +8,7 @@ import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 
 // Load environment variables first!
-dotenv.config({ path: "./.env" });
+dotenv.config();
 
 // Uncaught Exception Error (now after dotenv.config)
 ExceptionError();
